@@ -5,7 +5,7 @@ if len(sys.argv)!=3:
     class_held=7
 else :
     script_name=sys.argv[0]
-    no_class=sys.argv[1]
-    class_held=sys.argv[2]
-per=(class_held/no_class)*100
+    no_class=int(sys.argv[1])
+    class_held=int(sys.argv[2])
+per=(class_held / no_class)*100
 print("attendance is ",per)
